@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>GET OUT</title>
+    <meta content="">
+    <link rel="stylesheet" type="text/css" href="getout.css" />
+    <style></style>
+  </head>
+  <body><div class="GTFO"> <h1><center><span>GET OUT</span></center></h1></div></body>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script> 
+ 	
+	<script>
+        $(function() {
+
+            var outer = $('div'), inner = $('h1'),
+            difference = outer.width()-inner.width(),
+            ratio = outer.width()/inner.width(),
+            style = 'translateX(' + difference/2 + 'px) ' + 'scale(' + ratio + ')';
+            inner.css({'webkit-transform': style, transform: style});
+        });
+	</script>
+</html>

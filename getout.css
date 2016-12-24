@@ -1,0 +1,28 @@
+ 
+body {
+background-image: url(background.jpg);
+
+-moz-background-size: cover;
+-webkit-background-size: cover;
+background-size: cover;
+background-position: top center !important;
+background-repeat: no-repeat !important;
+background-attachment: fixed;
+}
+
+.GTFO {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: calc(6vw + 6vh + 2vmin);
+    font-family: Helvetica, Arial, "Helvetica Neue", sans-serif;
+    font-weight: 1500;
+    color: #e6e6e6;
+    text-shadow:
+    -3px -3px 0 #000,
+    3px -3px 0 #000,
+    -3px 3px 0 #000,
+    3px 3px 0 #000; 
+    margin: 0;
+}
