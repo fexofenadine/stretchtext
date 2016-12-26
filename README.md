@@ -1,4 +1,4 @@
-# sickant
+# stretchtext
 
 Just an HTML webpage that in very large letters tells the visitor to "GET OUT".
 
